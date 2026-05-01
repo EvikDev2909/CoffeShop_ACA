@@ -1,0 +1,12 @@
+{
+  "name": "coffeshop",
+  "version": "1.0.0",
+  "workspaces": [
+    "api"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev -w @coffeshop/api",
+    "test:api": "npm run test -w @coffeshop/api"
+  },
+  "private": "true"
+}

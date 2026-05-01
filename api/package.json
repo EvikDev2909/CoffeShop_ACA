@@ -1,0 +1,16 @@
+{
+  "name": "@coffeshop/api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "test:unit": "node --test src/modules/categories/categories.controller.test.js src/modules/categories/categories.repository.test.js src/modules/categories/categories.service.test.js src/modules/product/product.controller.test.js src/modules/product/product.repository.test.js src/modules/product/product.service.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  }
+}
